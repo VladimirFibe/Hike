@@ -13,6 +13,7 @@
 		02217E112A91FF960095F064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02217E102A91FF960095F064 /* Preview Assets.xcassets */; };
 		02217E182A9203A90095F064 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E172A9203A90095F064 /* Color+Extension.swift */; };
 		02217E1B2A92067B0095F064 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */; };
+		02217E1E2A921A1C0095F064 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E1D2A921A1C0095F064 /* CustomButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		02217E102A91FF960095F064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		02217E172A9203A90095F064 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
+		02217E1D2A921A1C0095F064 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				02217E0B2A91FF940095F064 /* CardView.swift */,
 				02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */,
+				02217E1D2A921A1C0095F064 /* CustomButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02217E1E2A921A1C0095F064 /* CustomButtonView.swift in Sources */,
 				02217E0C2A91FF940095F064 /* CardView.swift in Sources */,
 				02217E182A9203A90095F064 /* Color+Extension.swift in Sources */,
 				02217E0A2A91FF940095F064 /* HikeApp.swift in Sources */,

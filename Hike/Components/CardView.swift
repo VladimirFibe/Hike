@@ -5,27 +5,43 @@ struct CardView: View {
         ZStack {
             CustomBackgroundView()
             VStack {
-                title
+                header
                 content
             }
         }
         .frame(height: 570)
         .padding(.horizontal)
     }
-    var title: some View {
-        Text("Hiking")
-            .fontWeight(.black)
-            .font(.system(size: 52))
-            .foregroundStyle(
-                LinearGradient(
-                    colors: [
-                        .colorGrayLight,
-                        .colorGrayMedium
-                    ],
-                    startPoint: .top,
-                    endPoint: .bottom
+    var header: some View {
+        VStack(alignment: .leading) {
+            HStack {
+                Text("Hiking")
+                    .fontWeight(.black)
+                    .font(.system(size: 52))
+                    .foregroundStyle(
+                        LinearGradient(
+                            colors: [
+                                .colorGrayLight,
+                                .colorGrayMedium
+                            ],
+                            startPoint: .top,
+                            endPoint: .bottom
+                        )
                 )
-            )
+                Spacer()
+                Button {
+                    print("ta[")
+                } label: {
+                    CustomButtonView()
+                }
+
+            }
+            Text("Fun and enjoyable outdoor activity for friends and families.")
+              .multilineTextAlignment(.leading)
+              .italic()
+              .foregroundColor(.colorGrayMedium)
+        }
+        .padding(.horizontal, 30)
     }
     var content: some View {
         ZStack {
