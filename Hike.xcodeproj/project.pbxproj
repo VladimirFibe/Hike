@@ -14,6 +14,7 @@
 		02217E182A9203A90095F064 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E172A9203A90095F064 /* Color+Extension.swift */; };
 		02217E1B2A92067B0095F064 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */; };
 		02217E1E2A921A1C0095F064 /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E1D2A921A1C0095F064 /* CustomButtonView.swift */; };
+		02217E212A9226340095F064 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E202A9226340095F064 /* GradientButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		02217E172A9203A90095F064 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 		02217E1D2A921A1C0095F064 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		02217E202A9226340095F064 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 		02217E082A91FF940095F064 /* Hike */ = {
 			isa = PBXGroup;
 			children = (
+				02217E1F2A9226260095F064 /* Utilities */,
 				02217E092A91FF940095F064 /* HikeApp.swift */,
 				02217E192A92065A0095F064 /* Components */,
 				02217E1C2A9209B60095F064 /* Extensions */,
@@ -90,6 +93,14 @@
 				02217E172A9203A90095F064 /* Color+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		02217E1F2A9226260095F064 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				02217E202A9226340095F064 /* GradientButton.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +174,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				02217E1E2A921A1C0095F064 /* CustomButtonView.swift in Sources */,
+				02217E212A9226340095F064 /* GradientButton.swift in Sources */,
 				02217E0C2A91FF940095F064 /* CardView.swift in Sources */,
 				02217E182A9203A90095F064 /* Color+Extension.swift in Sources */,
 				02217E0A2A91FF940095F064 /* HikeApp.swift in Sources */,
