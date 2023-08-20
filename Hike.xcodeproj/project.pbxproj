@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		02217E0A2A91FF940095F064 /* HikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E092A91FF940095F064 /* HikeApp.swift */; };
-		02217E0C2A91FF940095F064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E0B2A91FF940095F064 /* ContentView.swift */; };
+		02217E0C2A91FF940095F064 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E0B2A91FF940095F064 /* CardView.swift */; };
 		02217E0E2A91FF960095F064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02217E0D2A91FF960095F064 /* Assets.xcassets */; };
 		02217E112A91FF960095F064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02217E102A91FF960095F064 /* Preview Assets.xcassets */; };
+		02217E182A9203A90095F064 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E172A9203A90095F064 /* Color+Extension.swift */; };
+		02217E1B2A92067B0095F064 /* CustomBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		02217E062A91FF940095F064 /* Hike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02217E092A91FF940095F064 /* HikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HikeApp.swift; sourceTree = "<group>"; };
-		02217E0B2A91FF940095F064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02217E0B2A91FF940095F064 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		02217E0D2A91FF960095F064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		02217E102A91FF960095F064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02217E172A9203A90095F064 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,8 @@
 			isa = PBXGroup;
 			children = (
 				02217E092A91FF940095F064 /* HikeApp.swift */,
-				02217E0B2A91FF940095F064 /* ContentView.swift */,
+				02217E192A92065A0095F064 /* Components */,
+				02217E1C2A9209B60095F064 /* Extensions */,
 				02217E0D2A91FF960095F064 /* Assets.xcassets */,
 				02217E0F2A91FF960095F064 /* Preview Content */,
 			);
@@ -65,6 +70,23 @@
 				02217E102A91FF960095F064 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02217E192A92065A0095F064 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				02217E0B2A91FF940095F064 /* CardView.swift */,
+				02217E1A2A92067B0095F064 /* CustomBackgroundView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		02217E1C2A9209B60095F064 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				02217E172A9203A90095F064 /* Color+Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +159,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				02217E0C2A91FF940095F064 /* ContentView.swift in Sources */,
+				02217E0C2A91FF940095F064 /* CardView.swift in Sources */,
+				02217E182A9203A90095F064 /* Color+Extension.swift in Sources */,
 				02217E0A2A91FF940095F064 /* HikeApp.swift in Sources */,
+				02217E1B2A92067B0095F064 /* CustomBackgroundView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
