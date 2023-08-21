@@ -19,6 +19,7 @@ struct CardView: View {
         .frame(height: 570)
         .padding(.horizontal)
     }
+
     var footer: some View {
         Button(action: randomImage) {
             Text("Explore More")
@@ -38,6 +39,7 @@ struct CardView: View {
         }
         .buttonStyle(GradientButton())
     }
+
     var header: some View {
         VStack(alignment: .leading) {
             HStack {
@@ -69,20 +71,10 @@ struct CardView: View {
         }
         .padding(.horizontal, 30)
     }
+    
     var content: some View {
         ZStack {
-            Circle()
-                .fill(
-                    LinearGradient(
-                        colors: [
-                            .colorIndigoMedium,
-                            .colorSalmonLight
-                        ],
-                        startPoint: .topLeading,
-                        endPoint: .bottomTrailing
-                    )
-                )
-                .frame(width: 256, height: 256)
+            CustomCircleView()
             Image("image-\(imageNumber)")
                 .resizable()
                 .scaledToFit()
