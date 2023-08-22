@@ -2,6 +2,7 @@ import SwiftUI
 
 struct CardView: View {
     @State private var imageNumber = 1
+    @State private var isShowingSheet = false
     private func randomImage() {
         let random = Int.random(in: 1...5)
         imageNumber = random == imageNumber ? random == 5 ? 1 : random + 1 : random
@@ -18,6 +19,11 @@ struct CardView: View {
         }
         .frame(height: 570)
         .padding(.horizontal)
+        .sheet(isPresented: $isShowingSheet) {
+            SettingsView()
+                .presentationDragIndicator(.visible)
+                .presentationDetents([.medium, .large])
+        }
     }
 
     var footer: some View {
@@ -58,7 +64,7 @@ struct CardView: View {
                 )
                 Spacer()
                 Button {
-                    print("ta[")
+                    isShowingSheet.toggle()
                 } label: {
                     CustomButtonView()
                 }

@@ -17,6 +17,7 @@
 		02217E212A9226340095F064 /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E202A9226340095F064 /* GradientButton.swift */; };
 		02217E232A925E780095F064 /* CustomCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02217E222A925E780095F064 /* CustomCircleView.swift */; };
 		02FEB5842A93B22600308CF7 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FEB5832A93B22600308CF7 /* MotionAnimationView.swift */; };
+		02FEB5862A93C08500308CF7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02FEB5852A93C08500308CF7 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,7 +31,10 @@
 		02217E1D2A921A1C0095F064 /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		02217E202A9226340095F064 /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		02217E222A925E780095F064 /* CustomCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCircleView.swift; sourceTree = "<group>"; };
+		02DF68712A943B86000BCA31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		02DF68732A943B9D000BCA31 /* Hike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Hike.jpg; sourceTree = "<group>"; };
 		02FEB5832A93B22600308CF7 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		02FEB5852A93C08500308CF7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 		02217DFD2A91FF940095F064 = {
 			isa = PBXGroup;
 			children = (
+				02DF68712A943B86000BCA31 /* README.md */,
+				02DF68722A943B8C000BCA31 /* img */,
 				02217E082A91FF940095F064 /* Hike */,
 				02217E072A91FF940095F064 /* Products */,
 			);
@@ -69,6 +75,7 @@
 				02217E1C2A9209B60095F064 /* Extensions */,
 				02217E0D2A91FF960095F064 /* Assets.xcassets */,
 				02217E0F2A91FF960095F064 /* Preview Content */,
+				02FEB5852A93C08500308CF7 /* SettingsView.swift */,
 			);
 			path = Hike;
 			sourceTree = "<group>";
@@ -107,6 +114,14 @@
 				02217E202A9226340095F064 /* GradientButton.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		02DF68722A943B8C000BCA31 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				02DF68732A943B9D000BCA31 /* Hike.jpg */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +197,7 @@
 				02217E1E2A921A1C0095F064 /* CustomButtonView.swift in Sources */,
 				02217E212A9226340095F064 /* GradientButton.swift in Sources */,
 				02217E0C2A91FF940095F064 /* CardView.swift in Sources */,
+				02FEB5862A93C08500308CF7 /* SettingsView.swift in Sources */,
 				02217E232A925E780095F064 /* CustomCircleView.swift in Sources */,
 				02217E182A9203A90095F064 /* Color+Extension.swift in Sources */,
 				02FEB5842A93B22600308CF7 /* MotionAnimationView.swift in Sources */,
@@ -312,6 +328,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
@@ -341,6 +358,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Hike/Preview Content\"";
